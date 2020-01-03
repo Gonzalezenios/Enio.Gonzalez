@@ -1,0 +1,66 @@
+body{
+    display: flex;
+    font-family: 'Montserrat';
+}
+
+#perfil {
+    width: 40%;
+    height: 100vh;
+    border-right: 1px solid grey;
+}
+
+#proyectos {
+    width: 60%;
+    height: 100vh;
+}
+
+#imagen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2em;
+    padding-bottom: 1em;
+
+}
+
+#imagen > div {
+    width: 10em;
+    height: 10em;
+    border-radius: 100%;
+    background-color: lightgray;
+}
+
+#datos {
+    padding: 0 20%;
+}
+
+#datos > div {
+    padding-bottom: 8px;
+}
+
+#about{
+    padding: 0 10%;
+    text-align: center;
+}
+
+#links {
+    padding: 25px 25% 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#links > span {
+    padding-right: 20px;
+}
+
+#about > h3 {
+    font-size: 25px;
+    ;
+}
+
+#about > p {
+    line-height: 170%;
+    
+}
+
